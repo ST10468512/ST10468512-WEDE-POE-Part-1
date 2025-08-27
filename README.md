@@ -47,4 +47,6 @@ No build step required.
 ## License
 Provided as-is for small business starter sites.
 
+
+## Sitemap
 <img width="670" height="544" alt="Screenshot 2025-08-27 163653" src="https://github.com/user-attachments/assets/1256ac42-428a-4d38-b534-dced8ac84b92" />
