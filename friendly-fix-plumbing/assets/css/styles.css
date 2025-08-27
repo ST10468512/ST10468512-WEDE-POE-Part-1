@@ -1,4 +1,4 @@
-/* Friendly Fix Plumbing - basic styles */
+/* Friendly Fix Plumbing - basic styles (original baseline) */
 :root {
   --brand: #0a7cff;
   --ink: #0f172a;
@@ -31,6 +31,8 @@ body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; colo
 .card { background: var(--surface); padding: 1rem; border-radius: 10px; }
 
 .page { padding: 2rem 0; }
+.page h1, .page h2, .page h3, .page h4 { margin-top: 0; margin-bottom: 0.75rem; }
+.page p { margin: 0 0 0.9rem; max-width: 70ch; }
 
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .contact-form label { display: grid; gap: 0.25rem; margin-bottom: 0.75rem; }
