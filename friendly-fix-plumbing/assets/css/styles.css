@@ -22,7 +22,14 @@ body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; colo
 .site-nav a { text-decoration: none; color: var(--ink); padding: 0.5rem 0.25rem; border-bottom: 2px solid transparent; }
 .site-nav a.active, .site-nav a:hover { border-color: var(--brand); color: var(--brand); }
 
-.hero { background: linear-gradient(180deg, var(--surface), #fff); padding: 4rem 0; text-align: center; }
+.hero { 
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(friendly-fix-plumbing/assets/img/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: 4rem 0;
+  text-align: center;
+  color: #ffffff
+}
 .hero h1 { margin-top: 0; font-size: clamp(1.8rem, 4vw, 2.5rem); }
 .btn { display: inline-block; background: var(--brand); color: white; padding: 0.75rem 1rem; border-radius: 8px; text-decoration: none; }
 
